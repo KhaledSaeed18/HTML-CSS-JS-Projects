@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#traffic-light-div {
+    border: 7px solid;
+    width: 150px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.light {
+    border: 3px solid;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 50%;
+}

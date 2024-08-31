@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hdGh8ZW58MHwwfDB8fHww");
+    background-size: cover;
+    font-family: cursive;
+}
+
+.form {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.score {
+    text-align: right;
+    text-decoration: underline;
+    margin-bottom: -3px;
+}
+
+h6 {
+    text-align: right;
+    margin: 0;
+    color: gray;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    border: solid 3px green;
+    border-radius: 8px;
+}
+
+.input::placeholder {
+    color: lightgray;
+    font-family: cursive;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    border: none;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: brightness(0.8);
+}

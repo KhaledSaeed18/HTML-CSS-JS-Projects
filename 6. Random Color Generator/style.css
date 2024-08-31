@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: cursive;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.color-container {
+    background-color: red;
+    width: 200px;
+    height: 150px;
+    color: white;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border: 2px solid black;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.color-container:hover {
+    filter: brightness(0.8);
+    cursor: pointer;
+    margin: 10px;
+}
